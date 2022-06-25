@@ -4,9 +4,9 @@ public class App {
         int sumar = sumas(2,3,5);
         System.out.println("Sumas: "+sumar);
 
-        Coche coche = new Coche(3);
-        coche.incrementarPuertas();
-        System.out.println("Cantidad de puertas: "+coche.puertas);
+        Coche miCoche = new Coche(3);
+        miCoche.incrementarPuertas();
+        System.out.println("Cantidad de puertas: "+miCoche.puertas);
 
 
     }
